@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Download Manager Assistant",
+  "version": "1.0",
+  "description": "Sends downloads to the desktop Download Manager application.",
+  "permissions": [
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://localhost:8080/"
+  ]
+}
